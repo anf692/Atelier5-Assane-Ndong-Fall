@@ -470,3 +470,52 @@ footer .right-footer{
 footer .right-footer span{
     color: #F6D238;
 }
+
+
+.menu2{
+    display: flex;
+    justify-content: center;
+    background-color: #F6D238;
+    border-radius: 100px;
+    align-items: center;
+    padding:20px;
+    margin: 30px 100px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+.menu2:hover{
+    background-color: #f1f1f1;
+    border: 1px solid #F6D238;
+    transform: scale(1.1);
+}
+
+.menu2 .box-menu{
+    display: flex;
+    justify-content: center;
+    gap: 06px;
+}
+
+.menu2 .box-menu a{
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+
+.menu2 .box-menu a:hover{
+    color: #F6D238;
+}
+
+.menu2 .box-menu i{
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 30px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+}
