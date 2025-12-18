@@ -189,7 +189,7 @@ ul li a:hover{
 
 .video-bg{
     margin-left: 20px;
-    background: url(images/img3.jpeg);
+    background: url(images/img3.jpg);
     height: 50px;
     width: 50px;
     background-position: center;
@@ -264,7 +264,7 @@ ul li a:hover{
 }
 
 .destinations .galerie .images{
-    width: 218px;
+    width: 24%;
     height: 350px;
     border-radius: 1rem;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
