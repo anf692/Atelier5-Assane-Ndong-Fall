@@ -5,3 +5,92 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+body{
+    background-color: #ffffff;
+}
+
+
+/* style pour le header et section */
+
+header{
+    padding: 20px 8%;
+}
+
+section{
+    padding: 70px 8%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo-div{
+    width: 30%;
+}
+
+.logo span{
+    color: #F6D238;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    list-style: none;
+}
+
+ul li {
+    padding: 10px  20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #999;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+ul li a:hover{
+    background-color: #F6D238;
+    color:#000;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn-header{
+    display: flex;
+    width: 30%;
+    justify-content: end;
+}
+
+.btn{
+    color:#000;
+    background-color: #F6D238;
+    border: 2px solid #F6D238;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #f1f1f1;
+    transform: rotate(5deg);
+}
+
+.btn i{
+    margin-right: 5px;;
+}
+
