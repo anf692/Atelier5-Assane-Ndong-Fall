@@ -316,3 +316,24 @@ ul li a:hover{
 
 /* style pour la troisieme section  */
 
+.best{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-list{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-list .box{
+    width: 32.33%;
+    height: 400px;
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
