@@ -102,6 +102,8 @@ ul li a:hover{
     width: 100%;
 }
 
+/* style pour le cote gauche de la section d'accueil */
+
 .home-section .left{
     position: relative;
     height: 500px;
@@ -136,4 +138,81 @@ ul li a:hover{
 
 .home-section .left-image2:hover{
     transform: scale(1.1) rotate(-10deg);
+}
+
+/* style pour le cote droit de la section d'accueil */
+.right{
+    margin-left: 100px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .text-right{
+    color: #F6D238;
+    font-weight: bold;
+}
+
+.right h1{
+    margin: 20px 0;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.right p{
+    margin-bottom: 25px;
+    color: #999;
+    width: 100%;
+    font-size: 14px;
+}
+
+.see-video{
+    border: 0;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bouttons{
+    display: flex;
+    align-items: center;
+}
+
+.see-video span{
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.video-bg{
+    margin-left: 20px;
+    background: url(images/img3.jpeg);
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.play-btn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    right: -20px;
+    transform: translate(-20%, 50%);
+}
+
+.play-btn i{
+    color: #CF0711;
 }
