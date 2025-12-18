@@ -94,3 +94,46 @@ ul li a:hover{
     margin-right: 5px;;
 }
 
+/* style pour la premiere section */
+
+.home-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-section .left{
+    position: relative;
+    height: 500px;
+    width: 600px;
+}
+
+.home-section .left img{
+    position: absolute;
+    object-fit: cover;
+    border: 8px solid #fff;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+}
+
+.home-section .left-image1{
+    width: 450px;
+    height: 500px;
+    transition: 0.5s;
+}
+
+.home-section .left-image1:hover{
+    transform: scale(1.1) rotate(10deg);
+}
+
+.home-section .left-image2{
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 250px;
+    transition: 0.5s;
+}
+
+.home-section .left-image2:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
