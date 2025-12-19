@@ -472,6 +472,7 @@ footer .right-footer span{
 }
 
 
+/* style pour le menu flottant  */
 .menu2{
     display: flex;
     justify-content: center;
@@ -518,4 +519,65 @@ footer .right-footer span{
     background-color: #fff;
     border-radius: 50%;
     position: relative;
+}
+
+
+/* style pour les temoignages */
+.temoignage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temoignage .titre{
+    font-size: 30px;
+    padding: 50px 0 20px 0;
+}
+
+.box-temoignage{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+
+.box-temoignage:hover{
+    transform: scale(1.05);
+}
+
+.temoignage-box{
+    width: 32.33%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.temoignage-box p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #999;
+    margin-bottom: 29px;
+}
+
+.client-info{
+    display: flex;
+    align-items: center;
+}
+
+.client-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.client-text{
+    margin-left: 15px;
+}
+
+.client-text h3{
+    font-size: 16px;
+    font-weight: bold;
 }
